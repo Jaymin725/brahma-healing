@@ -1,0 +1,25 @@
+/* Navbar */
+.navbar {
+  --bs-navbar-brand-color: var(--atomic-tangerine);
+  --bs-navbar-brand-hover-color: var(--coral);
+}
+
+/* Navbar - Container */
+.navbar .container {
+  background: linear-gradient(rgba(var(--eggplant-rgb), 0.75), rgba(var(--eggplant-rgb), 0.5));
+}
+
+/* Navbar - Nav Pills */
+.navbar .nav-pills {
+  --bs-nav-pills-border-radius: var(--bs-border-radius-pill);
+  --bs-nav-pills-link-active-color: var(--eggplant);
+  --bs-nav-pills-link-active-bg: var(--coral);
+}
+
+/* Navbar - Nav Link */
+.navbar .nav-link {
+  --bs-nav-link-color: var(--blush);
+  --bs-nav-link-hover-color: var(--coral);
+  --bs-nav-link-font-weight: 500;
+  --bs-nav-link-padding-y: 0.25rem;
+}
