@@ -70,16 +70,16 @@
   </header>
 
   <!-- Main -->
-  <main class="container">
+  <main class="container position-relative">
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md sticky-top z-1">
     
       <!-- Container -->
-      <div class="container text-bg-dark rounded rounded-pill px-2 py-1 overflow-hidden">
+      <div class="container text-bg-dark rounded rounded-pill px-2 py-1 overflow-hidden shadow">
 
         <!-- Navbar Brand -->
-        <a href="" class="col-4 order-1 navbar-brand text-center position-relative z-1 m-0">Dev Labs</a>
+        <a href="" class="col-4 order-1 navbar-brand text-center position-relative z-1 m-0">Brahma Healing</a>
         
         <!-- Navbar Toggler -->
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu">
@@ -112,7 +112,7 @@
 
         <!-- Navbar Collapse II -->
         <div class="col-4 order-2 navbar-collapse collapse justify-content-end" id="nav-menu">
-          <ul class="nav nav-pills fs-5">
+          <ul class="navbar-nav column-gap-2 fs-5">
             
             <!-- ... -->
             <li class="nav-item">
@@ -140,9 +140,64 @@
     </nav>
 
     <!-- Main Banner -->
-    <section>
+    <section class="row mt-4 min-vh-100 position-relative">
       
+      <!-- Column -->
+      <div class="col border">
+        
+        <!-- Ratio -->
+        <div class="ratio ratio-1x1 w-75 sticky-top top-50 translate-middle-y border border-5 rounded-circle shadow overflow-hidden z-0 mx-auto">
+          
+          <!-- Carousel -->
+          <div class="carousel slide carousel-fade" id="main-carousel" data-bs-ride="carousel">
+            
+            <!-- Carousel-inner -->
+            <div class="carousel-inner">
+              
+              <!-- Carousel Item -->
+              <div class="carousel-item active">
+                <!-- Image 0 -->
+                <img src="images/0.jpeg" alt="" class="img-fluid">
+              </div>
+              
+              <!-- Carousel Item -->
+              <div class="carousel-item">
+                <!-- Image 1 -->
+                <img src="images/1.jpeg" alt="" class="img-fluid">
+              </div>
+              
+              <!-- Carousel Item -->
+              <div class="carousel-item">
+                <!-- Image 2 -->
+                <img src="images/2.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+
+            <!-- Carousel Control Previous -->
+            <button class="carousel-control-prev" data-bs-target="#main-carousel" data-bs-slide="prev">
+              <!-- Carousel Control Previous Icon -->
+              <span class="carousel-control-prev-icon"></span>
+              <!-- Visually Hidden -->
+              <span class="visually-hidden">Previous</span>
+            </button>
+            
+            <!-- Carousel Control Next -->
+            <button class="carousel-control-next" data-bs-target="#main-carousel" data-bs-slide="next">
+              <!-- Carousel Control Next Icon -->
+              <span class="carousel-control-next-icon"></span>
+              <!-- Visually Hidden -->
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column -->
+      <div class="col border">...</div>
     </section>
   </main>
+
+  <!-- Scripts -->
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
